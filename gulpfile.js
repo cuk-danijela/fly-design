@@ -69,7 +69,7 @@ gulp.task('autoprefixer', async function () {
 // Copying Fonts to Dist
 gulp.task('fonts', function () {
     return gulp.src('fonts/**/*')
-        .pipe(gulp.dest('dist/fonts'))
+        .pipe(gulp.dest('public/fonts'))
 })
 
 gulp.task('watch', async function () {
