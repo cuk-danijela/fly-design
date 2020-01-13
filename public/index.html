@@ -8,9 +8,9 @@
   <meta name="author" content="Cuk Danijela">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fly Design</title>
-  <link href="css/animate.css" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="css/font-awesome.css">
+  <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="icon" href="favicon.png">
 </head>
 
@@ -135,7 +135,7 @@
       <br />
       <p id="add-text">Pošalji svoj <a href="mailto:info@email">email</a> i osvoji majicu.</p>
       <br />
-      <p style="font-size:14px; padding:0; background:none;">Sve o nagradnoj igri pogledaj na strani <a href="#">"O
+      <p class="about-us">Sve o nagradnoj igri pogledaj na strani <a href="#">"O
           nama"</a>.</p>
     </div>
   </div>
@@ -199,20 +199,25 @@
       <div class="col-one-third registration">
         <h3>Registruj se</h3>
         <form>
-          <label for="name"></label>
+          <label for="name">Vaše ime:</label>
           <input type="text" id="name" placeholder="Petar Petrovic" />
-          <label for="email"></label>
+          <label for="email">Vaša e-mail adresa:</label>
           <input type="text" id="email" placeholder="adresa@email.com" />
           <button type="submit">POŠALJI</button>
         </form>
       </div>
     </div>
     <!--end container-->
-    <span class="copyright">copyright 2015 | &copy; FLY Design</span>
+    <span class="copyright">
+      Copyright &copy; Fly Design | 2015
+      <script>
+        new Date().getFullYear() > 2010 && document.write("- " + new Date().getFullYear());
+      </script>
+    </span>
   </footer>
   <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/back.png"
       alt="Back to top button" /></button>
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
 
 </body>
 

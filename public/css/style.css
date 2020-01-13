@@ -242,12 +242,14 @@ nav {
   width: 55%;
   padding: 10px 0;
   margin: 0 auto;
-  
+
 }
-#add-text{
+
+#add-text {
   -webkit-animation: heartBeat 3s infinite;
   animation: heartBeat 3s infinite;
 }
+
 .add p a {
   color: #fff;
   text-decoration: none;
@@ -258,6 +260,11 @@ nav {
   text-decoration: underline;
 }
 
+.about-us {
+  font-size: 14px;
+  padding: 0;
+  background: none;
+}
 
 /*------ Portfolio --------*/
 
@@ -375,9 +382,11 @@ footer address a {
 footer address a:hover {
   text-decoration: underline;
 }
+
 footer address p {
   color: whitesmoke;
 }
+
 footer .registration input {
   width: 100%;
   display: block;
@@ -438,18 +447,26 @@ footer .copyright {
 /* --------------------- Back to top ------------------------ */
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  cursor: pointer; /* Add a mouse pointer on hover */ 
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
   background: transparent;
-    -webkit-animation: slideInUp 5s infinite;
-    animation: slideInUp 5s infinite;
-    cursor: pointer;
+  -webkit-animation: slideInUp 5s infinite;
+  animation: slideInUp 5s infinite;
+  cursor: pointer;
 }
 
 /* ------------- Animations --------------------- */
